@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Store">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="StoreWeb.war" deploy-path="/" handle="module:/resource/StoreWeb/StoreWeb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="StoreClient.jar" deploy-path="/" handle="module:/resource/StoreClient/StoreClient">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="StoreEJB.jar" deploy-path="/" handle="module:/resource/StoreEJB/StoreEJB">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="StoreJPA.jar" deploy-path="/lib" handle="module:/resource/StoreJPA/StoreJPA">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
